@@ -3,7 +3,8 @@
 
 # Log file
 *.log
-
+.idea
+Araxna.iml
 # BlueJ files
 *.ctxt
 
