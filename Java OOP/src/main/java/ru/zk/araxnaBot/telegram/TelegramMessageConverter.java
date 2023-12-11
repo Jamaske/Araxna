@@ -1,8 +1,8 @@
-package ru.zk.echoBot.telegram;
+package ru.zk.araxnaBot.telegram;
 
 import org.telegram.telegrambots.meta.api.objects.Update;
-import ru.zk.echoBot.MessageConverter;
-import ru.zk.echoBot.logic.BotRequest;
+import ru.zk.araxnaBot.MessageConverter;
+import ru.zk.araxnaBot.logic.BotRequest;
 
 public class TelegramMessageConverter implements MessageConverter {
     @Override

@@ -1,4 +1,4 @@
-target/
+Java OOP/target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/

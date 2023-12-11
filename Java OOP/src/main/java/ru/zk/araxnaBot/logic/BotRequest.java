@@ -1,12 +1,12 @@
-package ru.zk.echoBot.logic;
+package ru.zk.araxnaBot.logic;
 
-public class BotResponse {
+public class BotRequest {
     public final long userId;
     private final long chatId;
     private final int messageId;
     private final String message;
 
-    public BotResponse(long userId, long chatId, int messageId, String message) {
+    public BotRequest(long userId, long chatId, int messageId, String message) {
         this.userId = userId;
         this.chatId = chatId;
         this.messageId = messageId;

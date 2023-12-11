@@ -1,7 +1,7 @@
-package ru.zk.echoBot.logic;
+package ru.zk.araxnaBot.logic;
 
-import ru.zk.echoBot.AnswerWriter;
-import ru.zk.echoBot.MessageHandler;
+import ru.zk.araxnaBot.AnswerWriter;
+import ru.zk.araxnaBot.MessageHandler;
 
 public class EchoMessageHandler implements MessageHandler {
     public void handle(BotRequest request, AnswerWriter writer) {

@@ -1,7 +1,7 @@
-package ru.zk.echoBot.commands;
+package ru.zk.araxnaBot.commands;
 
 import org.telegram.telegrambots.meta.bots.AbsSender;
-import ru.zk.echoBot.logic.BotResponse;
+import ru.zk.araxnaBot.logic.BotResponse;
 
 
 public interface BaseCommand

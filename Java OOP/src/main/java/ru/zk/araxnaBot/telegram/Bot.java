@@ -1,19 +1,16 @@
-package ru.zk.echoBot.telegram;
+package ru.zk.araxnaBot.telegram;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
-import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.api.objects.Update;
-import org.telegram.telegrambots.meta.bots.AbsSender;
-import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
-import ru.zk.echoBot.AnswerWriter;
-import ru.zk.echoBot.MessageConverter;
-import ru.zk.echoBot.MessageHandler;
-import ru.zk.echoBot.commands.BaseCommand;
-import ru.zk.echoBot.commands.MonitorCommand;
-import ru.zk.echoBot.commands.StartCommand;
-import ru.zk.echoBot.logic.BotRequest;
-import ru.zk.echoBot.logic.BotResponse;
-import ru.zk.echoBot.logic.EchoMessageHandler;
+import ru.zk.araxnaBot.AnswerWriter;
+import ru.zk.araxnaBot.MessageConverter;
+import ru.zk.araxnaBot.MessageHandler;
+import ru.zk.araxnaBot.commands.BaseCommand;
+import ru.zk.araxnaBot.commands.MonitorCommand;
+import ru.zk.araxnaBot.commands.StartCommand;
+import ru.zk.araxnaBot.logic.BotRequest;
+import ru.zk.araxnaBot.logic.BotResponse;
+import ru.zk.araxnaBot.logic.EchoMessageHandler;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +20,7 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
     private final String botName;
     private final MessageConverter converter = new TelegramMessageConverter();
     private final MessageHandler handler = new EchoMessageHandler();
-    private final Map<String, BaseCommand> commands = new HashMap<String, BaseCommand>();
+    private final Map<String, BaseCommand> commands = new HashMap<>();
 
     public Bot(String apiKey, String botName) {
         super();

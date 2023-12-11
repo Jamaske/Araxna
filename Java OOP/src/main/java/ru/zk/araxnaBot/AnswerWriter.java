@@ -1,6 +1,6 @@
-package ru.zk.echoBot;
+package ru.zk.araxnaBot;
 
-import ru.zk.echoBot.logic.BotResponse;
+import ru.zk.araxnaBot.logic.BotResponse;
 
 public interface AnswerWriter {
     void writeAnswer(BotResponse response);

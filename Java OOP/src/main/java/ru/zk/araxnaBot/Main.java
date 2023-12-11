@@ -1,6 +1,6 @@
-package ru.zk.echoBot;
+package ru.zk.araxnaBot;
 
-import ru.zk.echoBot.telegram.Bot;
+import ru.zk.araxnaBot.telegram.Bot;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
